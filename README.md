@@ -1,2 +1,22 @@
-# Computational-Music-Collaboration
-Using code generated music to create dynamic guitar backing track
+# Computational Music Collaboration by Finn Bergquist
+
+### Video
+
+Check out the video I made, combining the code generated backing track with live imrovised guitar playing:
+https://www.youtube.com/watch?v=QBcER3il8fQ
+
+The video was filmed in the music library at Bowdoin College. The pulsating sound background is from the Sonic Pi
+application interface. I composed, recorded, and mixed all the audio myself.
+
+### Running the code
+Download the sonic pi application, and load in the final_code.rb. Then click play.
+
+### Description
+	
+My goal in creating this song was to create a backing track for my guitar playing. I was interested in balancing a predictable background for my playing whilst also including elements of randomness to provoke new sonic ideas. I find myself playing along to the same chord progressions all the time which can narrow the scope of my musical experimentation. Unpredictable music cues are popular method in the musical improvisation world to encourage novelty. 
+Ultimately, this goal inspired me to create sections of the song so that each section is geared towards one of these two goals. The ordered sections are firmly in A Minor with kick drums on the down beats and snares on the off beats. These are conventional musical patterns, so they are easy to solo over on the guitar. The chord progression is A Minor 7 -> F Major 7, G Dominant 7, C Major 7, E Dominant 7. These chords are almost all diatonic. This means that the notes of the chord come directly from the key that they belong to. Diatonic chords tend to sound predictable and unnoticeable. The only chord that is not diatonic in this section is the final chord, E Dominant 7. Usually, in A minor, E would be a minor chord, because diatonically, the third of E would be minor. However, I chose to make the third major to create some tension and emphasize the resolution back to the A. This transition follows another common technique in song writing where a dominant 5th chord, meaning there is a major third and minor seventh, transitions beautifully back to the 1 chord. It didn’t really matter that the E Dominant 7 chord was not in the key of A minor, because once the song goes back to A Minor, it feels like “home” to the listener. 
+
+In a stark contrast to the ordered repetition of this section, other sections use the sonic pi random note selector to stack harmonies. These sections tend to start with one or two random note synths and gradually add more throughout the section. While these moments in the song might sound less “musical”, they are a fascinating challenge to play along to. It is truly an amazing ear training exercise to try and match the sounds created. In some parts there are as many as 6 randomly generated pitches at once, decorated with delay, reverb, and phasors. As these pitches overlap, they tend to create dissonant harmonies often time the ordered sections’ sense of direction. A common harmony which stands out in these sections is the tritone, which occurs between the fourth and seventh (flat fifth interval). It is a half-step away from the easiest interval to hear, the fifth. The fifth is so easy to hear because of the probabilistic nature of overtones. When a sound wave oscillates, it creates a series of overtones. The first overtone is an octave, and the second is the fifth, the third is another octave, the fourth is a major third, etc. The takeaway from this is that the fifth overtone stands out more than any other interval because the lower overtones are more commonly audible. In nature you are far more likely to hear a fifth or major third in the sounds of everyday life then a second or a flat fifth(tritone). Therefore, the tritone was perceived as a sinful and scary sound, historically referred to as “the devil’s interval”. Because of this, I chose to make every harmonic interval equally likely to increasing the likelihood of dissonant harmonies that rarely occur in nature.
+  
+As a listening and playing exercise, the contrast between the two different sonic atmospheres challenged my playing. I decided that I wanted the final recording to avoid practiced melodies, so I challenged myself to only do two takes and save the better of the two. I used my pedalboard, so I switch between different effects to change the guitar tone. The three that I used were a distortion sound, a delay(synced to the tempo), and a high pass filter which reacted to the sound amplitude. The result of the live interpretation was interesting due to the non-premeditative decisions I made. It was also filled with mistakes, but I felt that this gave the piece some life to combat against the robotic sounds of the computer.
+
